@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2430006b-c767-4bdb-a87e-eade02a39502" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-commons/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-front-user/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-commons/src/main/java/com/atguigu/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-commons/src/main/java/com/atguigu/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-commons/target/classes/com/atguigu/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/store-commons/target/classes/com/atguigu/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/store-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/store-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-commons/target/store-commons-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/store-commons/target/store-commons-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-front-user/src/main/java/com/atguigu/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-user/src/main/java/com/atguigu/user/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-front-user/src/main/java/com/atguigu/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-user/src/main/java/com/atguigu/user/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-front-user/src/main/java/com/atguigu/user/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-user/src/main/java/com/atguigu/user/service/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +56,7 @@
   "keyToString": {
     "Maven.b2c-store [clean].executor": "Run",
     "Maven.b2c-store [compile].executor": "Run",
+    "Maven.store-commons [compile].executor": "Run",
     "Maven.store-commons [install].executor": "Run",
     "Maven.store-front-user [clean].executor": "Run",
     "Maven.store-front-user [compile].executor": "Run",
@@ -94,6 +94,13 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\file\work\code_b2c\b2c-store\store-commons\src\main\java\com\atguigu\utils" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+      </set>
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.UserApplication">
     <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
@@ -145,7 +152,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719039923735</updated>
-      <workItem from="1719039924686" duration="13956000" />
+      <workItem from="1719039924686" duration="24348000" />
     </task>
     <servers />
   </component>

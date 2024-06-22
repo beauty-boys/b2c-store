@@ -3,6 +3,9 @@ package com.atguigu.pojo;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 import org.hibernate.validator.constraints.Length;
 
@@ -15,13 +18,20 @@ public class User implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
+    @JsonProperty("user_id")
     @TableId(type= IdType.AUTO)
-    private Integer useId;
+    private Integer userId;
+
     @Length(min=6)
     private String userName;
-    @NotBlank
+
+//    @JsonIgnore
+    @JsonInclude(JsonInclude.Include.NON_NULL)
+//    @NotBlank
     private String password;
-    @NotBlank
+
+    @JsonInclude(JsonInclude.Include.NON_NULL)
+//    @NotBlank
     private String userPhonenumber;
 
 }

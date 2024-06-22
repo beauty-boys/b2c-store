@@ -2,6 +2,7 @@ package com.atguigu.user.service.impl;
 
 import com.atguigu.constants.UserConstants;
 import com.atguigu.param.UserCheckParam;
+import com.atguigu.param.UserLoginParam;
 import com.atguigu.pojo.User;
 import com.atguigu.user.mapper.UserMapper;
 import com.atguigu.user.service.UserService;
@@ -51,6 +52,7 @@ public class UserServiceImpl implements UserService {
             log.info("UserServiceIml.register业务结束，结果:{}","账号存在，注册失败");
             return R.fail("账号已经存在，不可注册");
         }
+
         String newPwd = MD5Util.encode(user.getPassword() + UserConstants.USER_SLAT);
         user.setPassword(newPwd);
 
@@ -65,5 +67,24 @@ public class UserServiceImpl implements UserService {
         return R.ok("注册成功");
     }
 
+    @Override
+    public R login(UserLoginParam userLoginParam)  {
 
+        String newPwd = MD5Util.encode(userLoginParam.getPassword() + UserConstants.USER_SLAT);
+        QueryWrapper<User> queryWrapper = new QueryWrapper<>();
+        queryWrapper.eq("user_name",userLoginParam.getUserName());
+        queryWrapper.eq("password",newPwd);
+
+        User user = userMapper.selectOne(queryWrapper);
+
+        if(user==null){
+            log.info("UserServiceImpl.login业务结束，结果:{}","账号和密码错误!");
+            return R.fail("账号或密码错误");
+        }
+
+        user.setPassword(null);
+        log.info("UserServiceImpl.login业务结束，结果:{}", "登录成功！");
+        return R.ok("登录成功!",user);
+
+    }
 }

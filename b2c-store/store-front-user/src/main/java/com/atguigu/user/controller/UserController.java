@@ -2,6 +2,7 @@ package com.atguigu.user.controller;
 
 
 import com.atguigu.param.UserCheckParam;
+import com.atguigu.param.UserLoginParam;
 import com.atguigu.pojo.User;
 import com.atguigu.user.service.UserService;
 import com.atguigu.utils.R;
@@ -40,6 +41,16 @@ public class UserController {
             return R.fail("参数异常，不可注册");
         }
         return userService.register(user);
+    }
+
+    @PostMapping("login")
+    public R login(@RequestBody @Validated UserLoginParam userLoginParam,
+                   BindingResult result) {
+        if(result.hasErrors()){
+            return R.fail("参数异常，不可登录");
+        }
+
+        return userService.login(userLoginParam);
     }
 
 
