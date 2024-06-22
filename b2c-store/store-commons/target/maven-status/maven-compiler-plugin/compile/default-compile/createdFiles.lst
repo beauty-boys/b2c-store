@@ -1,0 +1,5 @@
+com\atguigu\utils\MD5Util.class
+com\atguigu\param\UserCheckParam.class
+com\atguigu\pojo\User.class
+com\atguigu\utils\R.class
+com\atguigu\constants\UserConstants.class
