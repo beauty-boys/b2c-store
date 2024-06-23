@@ -7,7 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="store-front-category" />
         <module name="store-front-user" />
+        <module name="store-front-product" />
+        <module name="store-static" />
+        <module name="store-front-carousel" />
         <module name="store-gateway" />
         <module name="store-commons" />
       </profile>
@@ -18,8 +22,12 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="b2c-store" options="" />
       <module name="store-commons" options="-parameters" />
+      <module name="store-front-carousel" options="-parameters" />
+      <module name="store-front-category" options="-parameters" />
+      <module name="store-front-product" options="-parameters" />
       <module name="store-front-user" options="-parameters" />
       <module name="store-gateway" options="-parameters" />
+      <module name="store-static" options="-parameters" />
     </option>
   </component>
 </project>
