@@ -1,5 +1,6 @@
 package com.atguigu.product.controller;
 
+import com.atguigu.param.ProductHotParam;
 import com.atguigu.param.ProductPromoParam;
 import com.atguigu.product.service.ProductService;
 import com.atguigu.utils.R;
@@ -27,4 +28,12 @@ public class ProductController {
         return productService.promo(productPromoParam.getCategoryName());
     }
 
+    @PostMapping("hots")
+    public R hots(@RequestBody @Validated ProductHotParam productHotParam,
+                  BindingResult result) {
+        if (result.hasErrors()) {
+            return R.fail("数据查询失败！");
+        }
+        return productService.hots(productHotParam);
+    }
 }
