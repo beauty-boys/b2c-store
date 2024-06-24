@@ -34,6 +34,10 @@ public class CategoryController {
             return R.fail("类别集合查询失败");
         }
         return categoryService.hotsCategory(productHotParam);
+    }
 
+    @GetMapping("list")
+    public R list(){
+        return categoryService.list();
     }
 }

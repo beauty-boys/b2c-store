@@ -39,7 +39,7 @@ public class ProductServiceImpl implements ProductService {
 
         LinkedHashMap<String,Object> map = (LinkedHashMap<String,Object>) r.getData();
 
-        Integer categoryId = (Integer) map.get("categoryId");
+        Integer categoryId = (Integer) map.get("category_id");
 
         QueryWrapper<Product> queryWrapper = new QueryWrapper<>();
         queryWrapper.eq("category_id", categoryId);
@@ -78,6 +78,14 @@ public class ProductServiceImpl implements ProductService {
         log.info("ProductHotParamImpl.hots业务结束，结果:{}",ok);
 
         return ok;
+    }
+
+    @Override
+    public R clist() {
+        R r = categoryClient.list();
+        log.info("ProductServiceImpl.clist业务结束，结果：{}",r);
+
+        return r;
 
     }
 }

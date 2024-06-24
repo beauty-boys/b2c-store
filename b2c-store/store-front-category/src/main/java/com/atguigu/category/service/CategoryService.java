@@ -7,4 +7,6 @@ public interface CategoryService {
     R byName(String categoryName);
 
     R hotsCategory(ProductHotParam productHotParam);
+
+    R list();
 }

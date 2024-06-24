@@ -9,4 +9,6 @@ public interface ProductService {
 
 
     R hots(ProductHotParam productHotParam);
+
+    R clist();
 }

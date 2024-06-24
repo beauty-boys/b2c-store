@@ -36,4 +36,9 @@ public class ProductController {
         }
         return productService.hots(productHotParam);
     }
+
+    @PostMapping("category/list")
+    public R clist(){
+        return productService.clist();
+    }
 }

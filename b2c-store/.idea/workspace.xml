@@ -7,6 +7,8 @@
     <list default="true" id="2430006b-c767-4bdb-a87e-eade02a39502" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store-commons/src/main/java/com/atguigu/clients/CategoryClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-commons/src/main/java/com/atguigu/clients/CategoryClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-commons/src/main/java/com/atguigu/pojo/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-commons/src/main/java/com/atguigu/pojo/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-commons/target/classes/com/atguigu/clients/CategoryClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/store-commons/target/classes/com/atguigu/clients/CategoryClient.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store-commons/target/store-commons-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/store-commons/target/store-commons-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store-front-category/src/main/java/com/atguigu/category/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-category/src/main/java/com/atguigu/category/controller/CategoryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store-front-category/src/main/java/com/atguigu/category/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-category/src/main/java/com/atguigu/category/service/CategoryService.java" afterDir="false" />
@@ -18,6 +20,7 @@
       <change beforePath="$PROJECT_DIR$/store-front-product/src/main/java/com/atguigu/product/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-product/src/main/java/com/atguigu/product/service/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store-front-product/src/main/java/com/atguigu/product/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-product/src/main/java/com/atguigu/product/service/impl/ProductServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store-front-product/target/classes/com/atguigu/product/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-product/target/classes/com/atguigu/product/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-front-product/target/classes/com/atguigu/product/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-product/target/classes/com/atguigu/product/service/ProductService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store-front-product/target/classes/com/atguigu/product/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-product/target/classes/com/atguigu/product/service/impl/ProductServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,9 +86,9 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.CarouselApplication.executor": "Run",
-    "Spring Boot.CategoryApplication.executor": "Run",
+    "Spring Boot.CategoryApplication.executor": "Debug",
     "Spring Boot.GatewayApplication.executor": "Run",
-    "Spring Boot.ProductApplication.executor": "Run",
+    "Spring Boot.ProductApplication.executor": "Debug",
     "Spring Boot.StaticsApplication.executor": "Run",
     "Spring Boot.UserApplication.executor": "Run",
     "git-widget-placeholder": "main",
@@ -232,7 +235,7 @@
       <workItem from="1719115332875" duration="15652000" />
       <workItem from="1719149013320" duration="665000" />
       <workItem from="1719149685039" duration="6671000" />
-      <workItem from="1719199565653" duration="3421000" />
+      <workItem from="1719199565653" duration="5510000" />
     </task>
     <servers />
   </component>
@@ -243,9 +246,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/store-front-product/src/main/java/com/atguigu/product/service/impl/ProductServiceImpl.java</url>
-          <line>60</line>
-          <option name="timeStamp" value="14" />
+          <url>file://$PROJECT_DIR$/store-front-product/src/main/java/com/atguigu/product/controller/ProductController.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/store-front-category/src/main/java/com/atguigu/category/controller/CategoryController.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
