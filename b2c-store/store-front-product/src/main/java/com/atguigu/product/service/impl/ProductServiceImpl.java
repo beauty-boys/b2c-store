@@ -2,6 +2,7 @@ package com.atguigu.product.service.impl;
 
 import com.atguigu.clients.CategoryClient;
 import com.atguigu.param.ProductHotParam;
+import com.atguigu.param.ProductIdsParam;
 import com.atguigu.param.ProductPromoParam;
 import com.atguigu.pojo.Category;
 import com.atguigu.pojo.Product;
@@ -87,5 +88,24 @@ public class ProductServiceImpl implements ProductService {
 
         return r;
 
+    }
+
+    @Override
+    public R byCategory(ProductIdsParam productIdsParam) {
+        List<Integer> categoryID = productIdsParam.getCategoryID();
+
+        QueryWrapper<Product> queryWrapper = new QueryWrapper<>();
+
+        if(!categoryID.isEmpty()){
+            queryWrapper.in("category_id", categoryID);
+        }
+        IPage<Product> page = new Page<>(productIdsParam.getCurrentPage(),productIdsParam.getPageSize());
+
+        page = productMapper.selectPage(page,queryWrapper);
+
+        R ok = R.ok("查询成功！", page.getRecords(), page.getTotal());
+        log.info("ProductServiceImpl.byCategory业务结束。结果：{}",ok);
+
+        return ok;
     }
 }

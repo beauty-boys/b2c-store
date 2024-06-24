@@ -1,6 +1,7 @@
 com\atguigu\param\AdderListParam.class
 com\atguigu\utils\MD5Util.class
 com\atguigu\param\ProductHotParam.class
+com\atguigu\param\ProductIdsParam.class
 com\atguigu\param\AddressRemoveParam.class
 com\atguigu\param\ProductPromoParam.class
 com\atguigu\param\UserCheckParam.class

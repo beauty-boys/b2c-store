@@ -1,6 +1,7 @@
 package com.atguigu.product.controller;
 
 import com.atguigu.param.ProductHotParam;
+import com.atguigu.param.ProductIdsParam;
 import com.atguigu.param.ProductPromoParam;
 import com.atguigu.product.service.ProductService;
 import com.atguigu.utils.R;
@@ -41,4 +42,24 @@ public class ProductController {
     public R clist(){
         return productService.clist();
     }
+
+    @PostMapping("bycategory")
+    public R byCategory(@RequestBody @Validated ProductIdsParam productIdsParam,
+                        BindingResult result){
+        if (result.hasErrors()) {
+            return R.fail("类别商品查询失败！");
+        }
+        return productService.byCategory(productIdsParam);
+    }
+
+    @PostMapping("all")
+    public R all(@RequestBody @Validated ProductIdsParam productIdsParam,
+                        BindingResult result){
+        if (result.hasErrors()) {
+            return R.fail("类别商品查询失败！");
+        }
+        return productService.byCategory(productIdsParam);
+    }
+
+
 }
