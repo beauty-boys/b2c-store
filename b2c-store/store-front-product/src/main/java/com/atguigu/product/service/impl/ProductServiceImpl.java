@@ -2,10 +2,13 @@ package com.atguigu.product.service.impl;
 
 import com.atguigu.clients.CategoryClient;
 import com.atguigu.param.ProductHotParam;
+import com.atguigu.param.ProductIdParam;
 import com.atguigu.param.ProductIdsParam;
 import com.atguigu.param.ProductPromoParam;
 import com.atguigu.pojo.Category;
+import com.atguigu.pojo.Picture;
 import com.atguigu.pojo.Product;
+import com.atguigu.product.mapper.PictureMapper;
 import com.atguigu.product.mapper.ProductMapper;
 import com.atguigu.product.service.ProductService;
 import com.atguigu.utils.R;
@@ -28,6 +31,9 @@ public class ProductServiceImpl implements ProductService {
 
     @Autowired
     private ProductMapper productMapper;
+
+    @Autowired
+    private PictureMapper pictureMapper;
 
     @Override
     public R promo(String categoryName) {
@@ -105,6 +111,28 @@ public class ProductServiceImpl implements ProductService {
 
         R ok = R.ok("查询成功！", page.getRecords(), page.getTotal());
         log.info("ProductServiceImpl.byCategory业务结束。结果：{}",ok);
+
+        return ok;
+    }
+
+    @Override
+    public R detail(String productId) {
+        Product product = productMapper.selectById(productId);
+
+        R ok = R.ok(product);
+        log.info("ProductServiceImpl.detail业务结束，结果：{}",ok);
+        return ok;
+    }
+
+    @Override
+    public R pictures(String productId) {
+        QueryWrapper<Picture> queryWrapper = new QueryWrapper<>();
+        queryWrapper.eq("product_id", productId);
+
+        List<Picture> list = pictureMapper.selectList(queryWrapper);
+
+        R ok = R.ok(list);
+        log.info("ProcuctServiceImpl.picture业务结束，结果：{}",ok);
 
         return ok;
     }

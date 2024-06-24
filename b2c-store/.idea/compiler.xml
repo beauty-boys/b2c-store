@@ -12,6 +12,7 @@
         <module name="store-front-product" />
         <module name="store-static" />
         <module name="store-front-carousel" />
+        <module name="store-search" />
         <module name="store-gateway" />
         <module name="store-commons" />
       </profile>
@@ -27,6 +28,7 @@
       <module name="store-front-product" options="-parameters" />
       <module name="store-front-user" options="-parameters" />
       <module name="store-gateway" options="-parameters" />
+      <module name="store-search" options="-parameters" />
       <module name="store-static" options="-parameters" />
     </option>
   </component>

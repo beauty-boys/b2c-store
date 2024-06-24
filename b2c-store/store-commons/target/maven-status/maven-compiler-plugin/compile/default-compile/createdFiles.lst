@@ -1,5 +1,6 @@
 com\atguigu\param\AdderListParam.class
 com\atguigu\utils\MD5Util.class
+com\atguigu\param\ProductIdParam.class
 com\atguigu\param\ProductHotParam.class
 com\atguigu\param\ProductIdsParam.class
 com\atguigu\param\AddressRemoveParam.class
@@ -14,3 +15,4 @@ com\atguigu\pojo\Category.class
 com\atguigu\pojo\Carousel.class
 com\atguigu\pojo\User.class
 com\atguigu\pojo\Product.class
+com\atguigu\pojo\Picture.class

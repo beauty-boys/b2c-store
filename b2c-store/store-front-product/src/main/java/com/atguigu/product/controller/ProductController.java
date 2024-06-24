@@ -1,6 +1,7 @@
 package com.atguigu.product.controller;
 
 import com.atguigu.param.ProductHotParam;
+import com.atguigu.param.ProductIdParam;
 import com.atguigu.param.ProductIdsParam;
 import com.atguigu.param.ProductPromoParam;
 import com.atguigu.product.service.ProductService;
@@ -59,6 +60,24 @@ public class ProductController {
             return R.fail("类别商品查询失败！");
         }
         return productService.byCategory(productIdsParam);
+    }
+
+    @PostMapping("detail")
+    public R detail(@RequestBody @Validated ProductIdParam productIdParam,
+                    BindingResult result){
+        if (result.hasErrors()) {
+            return R.fail("商品详情查询失败！");
+        }
+        return productService.detail(productIdParam.getProductID());
+    }
+
+    @PostMapping("pictures")
+    public R pictures(@RequestBody @Validated ProductIdParam productIdParam,
+                    BindingResult result){
+        if (result.hasErrors()) {
+            return R.fail("图片详情查询失败！");
+        }
+        return productService.pictures(productIdParam.getProductID());
     }
 
 
