@@ -1,10 +1,8 @@
 package com.atguigu.product.service.impl;
 
 import com.atguigu.clients.CategoryClient;
-import com.atguigu.param.ProductHotParam;
-import com.atguigu.param.ProductIdParam;
-import com.atguigu.param.ProductIdsParam;
-import com.atguigu.param.ProductPromoParam;
+import com.atguigu.clients.SearchClient;
+import com.atguigu.param.*;
 import com.atguigu.pojo.Category;
 import com.atguigu.pojo.Picture;
 import com.atguigu.pojo.Product;
@@ -19,6 +17,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.List;
 
@@ -34,6 +33,9 @@ public class ProductServiceImpl implements ProductService {
 
     @Autowired
     private PictureMapper pictureMapper;
+
+    @Autowired
+    private SearchClient searchClient;
 
     @Override
     public R promo(String categoryName) {
@@ -135,5 +137,19 @@ public class ProductServiceImpl implements ProductService {
         log.info("ProcuctServiceImpl.picture业务结束，结果：{}",ok);
 
         return ok;
+    }
+
+    @Override
+    public List<Product> allList() {
+        List<Product> products = productMapper.selectList(null);
+        log.info("ProductServiceImpl.allList业务结束，结果：{}",products.size());
+        return products;
+    }
+
+    @Override
+    public R search(ProductSearchParam productSearchParam) {
+        R r = searchClient.search(productSearchParam);
+        log.info("ProductServiceImpl.search业务结束，结果：{}",r);
+        return r;
     }
 }

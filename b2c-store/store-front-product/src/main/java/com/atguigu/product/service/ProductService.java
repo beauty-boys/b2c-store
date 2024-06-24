@@ -1,14 +1,13 @@
 package com.atguigu.product.service;
 
-import com.atguigu.param.ProductHotParam;
-import com.atguigu.param.ProductIdParam;
-import com.atguigu.param.ProductIdsParam;
-import com.atguigu.param.ProductPromoParam;
+import com.atguigu.param.*;
+import com.atguigu.pojo.Product;
 import com.atguigu.utils.R;
+
+import java.util.List;
 
 public interface ProductService {
     R promo(String categoryName);
-
 
     R hots(ProductHotParam productHotParam);
 
@@ -19,4 +18,8 @@ public interface ProductService {
     R detail(String productId);
 
     R pictures(String productId);
+
+    List<Product> allList();
+
+    R search(ProductSearchParam productSearchParam);
 }

@@ -1,9 +1,6 @@
 package com.atguigu.product.controller;
 
-import com.atguigu.param.ProductHotParam;
-import com.atguigu.param.ProductIdParam;
-import com.atguigu.param.ProductIdsParam;
-import com.atguigu.param.ProductPromoParam;
+import com.atguigu.param.*;
 import com.atguigu.product.service.ProductService;
 import com.atguigu.utils.R;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -80,5 +77,9 @@ public class ProductController {
         return productService.pictures(productIdParam.getProductID());
     }
 
+    @PostMapping("search")
+    public R search(@RequestBody ProductSearchParam productSearchParam){
+        return productService.search(productSearchParam);
+    }
 
 }

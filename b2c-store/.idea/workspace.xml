@@ -5,20 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2430006b-c767-4bdb-a87e-eade02a39502" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/store-search/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-commons/src/main/java/com/atguigu/param/ProductIdsParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-commons/src/main/java/com/atguigu/param/ProductIdsParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-commons/src/main/java/com/atguigu/pojo/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-commons/src/main/java/com/atguigu/pojo/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-commons/target/classes/com/atguigu/param/ProductIdsParam.class" beforeDir="false" afterPath="$PROJECT_DIR$/store-commons/target/classes/com/atguigu/param/ProductIdsParam.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/store-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/store-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store-commons/target/store-commons-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/store-commons/target/store-commons-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-front-product/src/main/java/com/atguigu/product/ProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-product/src/main/java/com/atguigu/product/ProductApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store-front-product/src/main/java/com/atguigu/product/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-product/src/main/java/com/atguigu/product/controller/ProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store-front-product/src/main/java/com/atguigu/product/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-product/src/main/java/com/atguigu/product/service/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store-front-product/src/main/java/com/atguigu/product/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-product/src/main/java/com/atguigu/product/service/impl/ProductServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store-front-product/target/classes/com/atguigu/product/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-product/target/classes/com/atguigu/product/controller/ProductController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store-front-product/target/classes/com/atguigu/product/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-product/target/classes/com/atguigu/product/service/ProductService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store-front-product/target/classes/com/atguigu/product/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-product/target/classes/com/atguigu/product/service/impl/ProductServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/store-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-search/src/main/java/com/atguigu/search/SearchApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-search/src/main/java/com/atguigu/search/SearchApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-search/target/classes/com/atguigu/search/SearchApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/store-search/target/classes/com/atguigu/search/SearchApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +88,7 @@
     "Spring Boot.CategoryApplication.executor": "Run",
     "Spring Boot.GatewayApplication.executor": "Run",
     "Spring Boot.ProductApplication.executor": "Run",
+    "Spring Boot.SearchApplication.executor": "Run",
     "Spring Boot.StaticsApplication.executor": "Run",
     "Spring Boot.UserApplication.executor": "Run",
     "git-widget-placeholder": "main",
@@ -108,11 +111,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.atguigu.search.service" />
       <recent name="com.atguigu.product.service" />
       <recent name="com.atguigu.category.mapper" />
       <recent name="com.atguigu.category.service" />
       <recent name="com.atguigu.carousel.mapper" />
-      <recent name="com.atguigu.carousel.service" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\file\work\code_b2c\b2c-store\store-static\src\main\resources" />
@@ -129,7 +132,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SearchApplication">
+  <component name="RunManager" selected="Spring Boot.ProductApplication">
     <configuration name="CarouselApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="store-front-carousel" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.carousel.CarouselApplication" />
@@ -205,8 +208,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.SearchApplication" />
-        <item itemvalue="Spring Boot.ProductApplication" />
         <item itemvalue="Spring Boot.CategoryApplication" />
+        <item itemvalue="Spring Boot.ProductApplication" />
         <item itemvalue="Spring Boot.CarouselApplication" />
         <item itemvalue="Spring Boot.StaticsApplication" />
       </list>
@@ -232,7 +235,7 @@
       <workItem from="1719115332875" duration="15652000" />
       <workItem from="1719149013320" duration="665000" />
       <workItem from="1719149685039" duration="6671000" />
-      <workItem from="1719199565653" duration="10184000" />
+      <workItem from="1719199565653" duration="20573000" />
     </task>
     <servers />
   </component>
@@ -247,11 +250,10 @@
           <line>40</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/store-front-product/src/main/java/com/atguigu/product/service/impl/ProductServiceImpl.java</url>
-          <line>128</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="feign.FeignException$MethodNotAllowed" package="feign" />
+          <option name="timeStamp" value="22" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

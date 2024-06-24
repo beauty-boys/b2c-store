@@ -1,6 +1,8 @@
 com\atguigu\param\AdderListParam.class
 com\atguigu\utils\MD5Util.class
+com\atguigu\clients\SearchClient.class
 com\atguigu\param\ProductIdParam.class
+com\atguigu\param\ProductSearchParam.class
 com\atguigu\param\ProductHotParam.class
 com\atguigu\param\ProductIdsParam.class
 com\atguigu\param\AddressRemoveParam.class
@@ -8,11 +10,14 @@ com\atguigu\param\ProductPromoParam.class
 com\atguigu\param\UserCheckParam.class
 com\atguigu\param\UserLoginParam.class
 com\atguigu\pojo\Address.class
+com\atguigu\clients\ProductClient.class
 com\atguigu\utils\R.class
 com\atguigu\clients\CategoryClient.class
 com\atguigu\constants\UserConstants.class
 com\atguigu\pojo\Category.class
 com\atguigu\pojo\Carousel.class
+com\atguigu\param\PageParam.class
 com\atguigu\pojo\User.class
+com\atguigu\doc\ProductDoc.class
 com\atguigu\pojo\Product.class
 com\atguigu\pojo\Picture.class
