@@ -15,9 +15,9 @@ public interface ProductService {
 
     R byCategory(ProductIdsParam productIdsParam);
 
-    R detail(String productId);
+    R detail(Integer productId);
 
-    R pictures(String productId);
+    R pictures(Integer productId);
 
     List<Product> allList();
 

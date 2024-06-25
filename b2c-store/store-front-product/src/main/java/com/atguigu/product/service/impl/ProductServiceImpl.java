@@ -125,7 +125,7 @@ public class ProductServiceImpl implements ProductService {
 
     @Cacheable(value="product",key="#productId")
     @Override
-    public R detail(String productId) {
+    public R detail(Integer productId) {
         Product product = productMapper.selectById(productId);
 
         R ok = R.ok(product);
@@ -135,7 +135,7 @@ public class ProductServiceImpl implements ProductService {
 
     @Cacheable(value="pricture",key="#productId")
     @Override
-    public R pictures(String productId) {
+    public R pictures(Integer productId) {
         QueryWrapper<Picture> queryWrapper = new QueryWrapper<>();
         queryWrapper.eq("product_id", productId);
 

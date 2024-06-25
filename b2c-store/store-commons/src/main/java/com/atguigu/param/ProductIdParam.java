@@ -8,5 +8,5 @@ import javax.validation.constraints.NotNull;
 public class ProductIdParam {
 
     @NotNull
-    private String productID;
+    private Integer productID;
 }

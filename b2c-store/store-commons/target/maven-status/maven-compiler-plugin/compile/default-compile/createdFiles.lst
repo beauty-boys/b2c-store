@@ -2,6 +2,7 @@ com\atguigu\param\ProductIdParam.class
 com\atguigu\param\ProductSearchParam.class
 com\atguigu\param\ProductHotParam.class
 com\atguigu\param\AddressRemoveParam.class
+com\atguigu\param\CartSaveParam.class
 com\atguigu\pojo\Collect.class
 com\atguigu\pojo\Address.class
 com\atguigu\utils\R.class
@@ -11,6 +12,7 @@ com\atguigu\param\PageParam.class
 com\atguigu\pojo\User.class
 com\atguigu\doc\ProductDoc.class
 com\atguigu\pojo\Product.class
+com\atguigu\vo\CartVo.class
 com\atguigu\param\AdderListParam.class
 com\atguigu\utils\MD5Util.class
 com\atguigu\clients\SearchClient.class

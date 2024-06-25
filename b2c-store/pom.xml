@@ -17,7 +17,8 @@
         <module>store-front-category</module>
         <module>store-front-product</module>
         <module>store-search</module>
-        <module>storu-front-collect</module>
+        <module>store-front-collect</module>
+        <module>store-front-cart</module>
     </modules>
 
     <!--    <properties>-->

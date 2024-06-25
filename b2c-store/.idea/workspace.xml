@@ -5,22 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2430006b-c767-4bdb-a87e-eade02a39502" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/store-front-cart/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store-commons/src/main/java/com/atguigu/clients/ProductClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-commons/src/main/java/com/atguigu/clients/ProductClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-commons/src/main/java/com/atguigu/param/ProductIdParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-commons/src/main/java/com/atguigu/param/ProductIdParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-commons/target/classes/com/atguigu/clients/ProductClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/store-commons/target/classes/com/atguigu/clients/ProductClient.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/store-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/store-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store-commons/target/store-commons-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/store-commons/target/store-commons-1.0.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store-front-product/src/main/java/com/atguigu/product/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-product/src/main/java/com/atguigu/product/service/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store-front-product/src/main/java/com/atguigu/product/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-product/src/main/java/com/atguigu/product/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-front-product/target/classes/com/atguigu/product/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-product/target/classes/com/atguigu/product/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-front-product/target/classes/com/atguigu/product/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-product/target/classes/com/atguigu/product/service/ProductService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store-front-product/target/classes/com/atguigu/product/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-product/target/classes/com/atguigu/product/service/impl/ProductServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storu-front-collect/src/main/java/com/atguigu/collect/CollectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/storu-front-collect/src/main/java/com/atguigu/collect/CollectApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storu-front-collect/src/main/java/com/atguigu/collect/controller/CollectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/storu-front-collect/src/main/java/com/atguigu/collect/controller/CollectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storu-front-collect/src/main/java/com/atguigu/collect/service/CollectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/storu-front-collect/src/main/java/com/atguigu/collect/service/CollectService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storu-front-collect/src/main/java/com/atguigu/collect/service/impl/CollerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/storu-front-collect/src/main/java/com/atguigu/collect/service/impl/CollerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storu-front-collect/target/classes/com/atguigu/collect/CollectApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/storu-front-collect/target/classes/com/atguigu/collect/CollectApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storu-front-collect/target/classes/com/atguigu/collect/controller/CollectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/storu-front-collect/target/classes/com/atguigu/collect/controller/CollectController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storu-front-collect/target/classes/com/atguigu/collect/service/CollectService.class" beforeDir="false" afterPath="$PROJECT_DIR$/storu-front-collect/target/classes/com/atguigu/collect/service/CollectService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storu-front-collect/target/classes/com/atguigu/collect/service/impl/CollerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/storu-front-collect/target/classes/com/atguigu/collect/service/impl/CollerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/store-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/store-gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storu-front-collect/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-collect/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storu-front-collect/src/main/java/com/atguigu/collect/CollectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-collect/src/main/java/com/atguigu/collect/CollectApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storu-front-collect/src/main/java/com/atguigu/collect/controller/CollectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-collect/src/main/java/com/atguigu/collect/controller/CollectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storu-front-collect/src/main/java/com/atguigu/collect/mapper/CollectMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-collect/src/main/java/com/atguigu/collect/mapper/CollectMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storu-front-collect/src/main/java/com/atguigu/collect/service/CollectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-collect/src/main/java/com/atguigu/collect/service/CollectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storu-front-collect/src/main/java/com/atguigu/collect/service/impl/CollerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-collect/src/main/java/com/atguigu/collect/service/impl/CollerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storu-front-collect/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-collect/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storu-front-collect/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-collect/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storu-front-collect/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-collect/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storu-front-collect/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-collect/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storu-front-collect/target/classes/com/atguigu/collect/CollectApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-collect/target/classes/com/atguigu/collect/CollectApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storu-front-collect/target/classes/com/atguigu/collect/controller/CollectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-collect/target/classes/com/atguigu/collect/controller/CollectController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storu-front-collect/target/classes/com/atguigu/collect/mapper/CollectMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-collect/target/classes/com/atguigu/collect/mapper/CollectMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storu-front-collect/target/classes/com/atguigu/collect/service/CollectService.class" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-collect/target/classes/com/atguigu/collect/service/CollectService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storu-front-collect/target/classes/com/atguigu/collect/service/impl/CollerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-collect/target/classes/com/atguigu/collect/service/impl/CollerServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +102,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.CarouselApplication.executor": "Run",
+    "Spring Boot.CartApplication.executor": "Run",
     "Spring Boot.CategoryApplication.executor": "Run",
     "Spring Boot.CollectApplication.executor": "Run",
     "Spring Boot.GatewayApplication.executor": "Run",
@@ -112,11 +130,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.atguigu.cart.service" />
       <recent name="com.atguigu.collect.service" />
       <recent name="com.atguigu.search.service" />
       <recent name="com.atguigu.product.service" />
       <recent name="com.atguigu.category.mapper" />
-      <recent name="com.atguigu.category.service" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\file\work\code_b2c\b2c-store\store-static\src\main\resources" />
@@ -133,13 +151,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CollectApplication">
-    <configuration name="CarouselApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="store-front-carousel" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.carousel.CarouselApplication" />
+  <component name="RunManager" selected="Spring Boot.CartApplication">
+    <configuration name="CartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="store-front-cart" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.cart.CartApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.carousel.*" />
+          <option name="PATTERN" value="com.atguigu.cart.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,7 +166,7 @@
       </method>
     </configuration>
     <configuration name="CollectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="storu-front-collect" />
+      <module name="store-front-collect" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.collect.CollectApplication" />
       <extension name="coverage">
         <pattern>
@@ -200,19 +218,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.CartApplication" />
       <item itemvalue="Spring Boot.CollectApplication" />
       <item itemvalue="Spring Boot.UserApplication" />
       <item itemvalue="Spring Boot.SearchApplication" />
       <item itemvalue="Spring Boot.ProductApplication" />
-      <item itemvalue="Spring Boot.CarouselApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.CartApplication" />
         <item itemvalue="Spring Boot.CollectApplication" />
-        <item itemvalue="Spring Boot.ProductApplication" />
-        <item itemvalue="Spring Boot.CarouselApplication" />
         <item itemvalue="Spring Boot.UserApplication" />
         <item itemvalue="Spring Boot.SearchApplication" />
+        <item itemvalue="Spring Boot.ProductApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +255,7 @@
       <workItem from="1719149013320" duration="665000" />
       <workItem from="1719149685039" duration="6671000" />
       <workItem from="1719199565653" duration="23705000" />
-      <workItem from="1719288576391" duration="17696000" />
+      <workItem from="1719288576391" duration="23456000" />
     </task>
     <servers />
   </component>

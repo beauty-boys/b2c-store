@@ -1,6 +1,7 @@
 package com.atguigu.clients;
 
 import com.atguigu.param.ProductCollectParam;
+import com.atguigu.param.ProductIdParam;
 import com.atguigu.pojo.Product;
 import com.atguigu.utils.R;
 import org.springframework.cloud.openfeign.FeignClient;
@@ -18,4 +19,7 @@ public interface ProductClient {
 
     @PostMapping("/product/collect/list")
     R productIds(@RequestBody ProductCollectParam productCollectParam);
+
+    @PostMapping("/product/cart/detail")
+    Product productDetail(@RequestBody ProductIdParam productIdParam);
 }
