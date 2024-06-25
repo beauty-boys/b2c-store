@@ -20,6 +20,15 @@ public class CollectController {
     @PostMapping("save")
     public R save(@RequestBody Collect collect) {
         return collectService.save(collect);
-
     }
+
+    @PostMapping("list")
+    public R list(@RequestBody Collect collect) {
+        return collectService.list(collect.getUserId());
+    }
+    @PostMapping("remove")
+    public R move(@RequestBody Collect collect) {
+        return collectService.move(collect);
+    }
+
 }

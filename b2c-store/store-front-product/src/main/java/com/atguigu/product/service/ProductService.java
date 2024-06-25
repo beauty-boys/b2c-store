@@ -22,4 +22,6 @@ public interface ProductService {
     List<Product> allList();
 
     R search(ProductSearchParam productSearchParam);
+
+    R ids(List<Integer> productIds);
 }

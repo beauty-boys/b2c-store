@@ -161,4 +161,16 @@ public class ProductServiceImpl implements ProductService {
         log.info("ProductServiceImpl.search业务结束，结果：{}",r);
         return r;
     }
+
+    @Cacheable(value="list.product",key="#productIds")
+    @Override
+    public R ids(List<Integer> productIds) {
+        QueryWrapper<Product> queryWrapper = new QueryWrapper<>();
+        queryWrapper.in("product_id", productIds);
+
+        List<Product> productList = productMapper.selectList(queryWrapper);
+        R ok = R.ok("类别查询成功", productList);
+        log.info("ProductServiceImpl.ids业务结束，结果：{}",ok);
+        return ok;
+    }
 }
