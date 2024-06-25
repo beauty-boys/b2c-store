@@ -22,4 +22,7 @@ public interface ProductClient {
 
     @PostMapping("/product/cart/detail")
     Product productDetail(@RequestBody ProductIdParam productIdParam);
+
+    @PostMapping("/product/cart/list")
+    List<Product> cartList(@RequestBody ProductCollectParam productCollectParam);
 }

@@ -11,6 +11,7 @@ com\atguigu\constants\UserConstants.class
 com\atguigu\param\PageParam.class
 com\atguigu\pojo\User.class
 com\atguigu\doc\ProductDoc.class
+com\atguigu\param\CartListParam.class
 com\atguigu\pojo\Product.class
 com\atguigu\vo\CartVo.class
 com\atguigu\param\AdderListParam.class

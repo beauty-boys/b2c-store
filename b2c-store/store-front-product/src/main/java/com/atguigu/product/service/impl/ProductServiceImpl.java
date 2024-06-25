@@ -162,6 +162,7 @@ public class ProductServiceImpl implements ProductService {
         return r;
     }
 
+
     @Cacheable(value="list.product",key="#productIds")
     @Override
     public R ids(List<Integer> productIds) {
@@ -173,4 +174,14 @@ public class ProductServiceImpl implements ProductService {
         log.info("ProductServiceImpl.ids业务结束，结果：{}",ok);
         return ok;
     }
+
+    @Override
+    public List<Product> carList(List<Integer> productIds) {
+        QueryWrapper<Product> queryWrapper = new QueryWrapper<>();
+        queryWrapper.in("product_id", productIds);
+        List<Product> productList = productMapper.selectList(queryWrapper);
+        log.info("ProductServiceImpl.cartList业务结束，结果：{}",productList);
+        return productList;
+    }
+
 }

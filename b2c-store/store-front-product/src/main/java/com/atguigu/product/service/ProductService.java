@@ -24,4 +24,6 @@ public interface ProductService {
     R search(ProductSearchParam productSearchParam);
 
     R ids(List<Integer> productIds);
+
+    List<Product> carList(List<Integer> productIds);
 }
