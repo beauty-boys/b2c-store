@@ -2,6 +2,7 @@ com\atguigu\param\ProductIdParam.class
 com\atguigu\param\ProductSearchParam.class
 com\atguigu\param\ProductHotParam.class
 com\atguigu\param\AddressRemoveParam.class
+com\atguigu\pojo\Collect.class
 com\atguigu\pojo\Address.class
 com\atguigu\utils\R.class
 com\atguigu\clients\CategoryClient.class

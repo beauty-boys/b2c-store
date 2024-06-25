@@ -27,3 +27,7 @@ spring:
           uri: lb://search-service #使用负载均衡,调用服务名,这是服务名
           predicates:
             - Path=/search/** # 访问product相关,转发到product服务
+        - id: collect-service  # 收藏服务
+          uri: lb://collect-service
+          predicates:
+            - Path=/collect/**
