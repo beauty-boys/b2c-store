@@ -15,6 +15,7 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import java.util.Collections;
@@ -37,6 +38,7 @@ public class ProductServiceImpl implements ProductService {
     @Autowired
     private SearchClient searchClient;
 
+    @Cacheable(value ="list.product",key="#categoryName",cacheManager = "cacheManagerDay")
     @Override
     public R promo(String categoryName) {
 
@@ -64,6 +66,7 @@ public class ProductServiceImpl implements ProductService {
         return R.ok("数据查询成功",records);
     }
 
+    @Cacheable(value ="list.product",key="#productHotParam.categoryName")
     @Override
     public R hots(ProductHotParam productHotParam) {
 
@@ -89,6 +92,7 @@ public class ProductServiceImpl implements ProductService {
         return ok;
     }
 
+
     @Override
     public R clist() {
         R r = categoryClient.list();
@@ -98,6 +102,8 @@ public class ProductServiceImpl implements ProductService {
 
     }
 
+    @Cacheable(value ="list.product",
+            key="#productIdsParam.categoryID+'-'+#productIdsParam.currentPage+'-'+#productIdsParam.pageSize")
     @Override
     public R byCategory(ProductIdsParam productIdsParam) {
         List<Integer> categoryID = productIdsParam.getCategoryID();
@@ -117,6 +123,7 @@ public class ProductServiceImpl implements ProductService {
         return ok;
     }
 
+    @Cacheable(value="product",key="#productId")
     @Override
     public R detail(String productId) {
         Product product = productMapper.selectById(productId);
@@ -126,6 +133,7 @@ public class ProductServiceImpl implements ProductService {
         return ok;
     }
 
+    @Cacheable(value="pricture",key="#productId")
     @Override
     public R pictures(String productId) {
         QueryWrapper<Picture> queryWrapper = new QueryWrapper<>();
@@ -139,6 +147,7 @@ public class ProductServiceImpl implements ProductService {
         return ok;
     }
 
+    @Cacheable(value="list.category",key="#root.methodName",cacheManager = "cacheManagerDay")
     @Override
     public List<Product> allList() {
         List<Product> products = productMapper.selectList(null);

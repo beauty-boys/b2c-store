@@ -6,9 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="2430006b-c767-4bdb-a87e-eade02a39502" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-front-product/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-product/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-search/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/store-search/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-search/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/store-search/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-commons/src/main/java/com/atguigu/pojo/Picture.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-commons/src/main/java/com/atguigu/pojo/Picture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-commons/src/main/java/com/atguigu/utils/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-commons/src/main/java/com/atguigu/utils/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-commons/target/store-commons-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/store-commons/target/store-commons-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-front-carousel/src/main/java/com/atguigu/carousel/CarouselApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-carousel/src/main/java/com/atguigu/carousel/CarouselApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-front-carousel/src/main/java/com/atguigu/carousel/service/impl/CarouselServiceimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-carousel/src/main/java/com/atguigu/carousel/service/impl/CarouselServiceimpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-front-carousel/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-carousel/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-front-product/src/main/java/com/atguigu/product/ProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-product/src/main/java/com/atguigu/product/ProductApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-front-product/src/main/java/com/atguigu/product/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-product/src/main/java/com/atguigu/product/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-front-product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-product/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-front-product/target/classes/com/atguigu/product/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-product/target/classes/com/atguigu/product/service/impl/ProductServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,53 +54,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.b2c-store [clean].executor": "Run",
-    "Maven.b2c-store [compile].executor": "Run",
-    "Maven.b2c-store [install].executor": "Run",
-    "Maven.store-commons [clean].executor": "Run",
-    "Maven.store-commons [compile].executor": "Run",
-    "Maven.store-commons [install].executor": "Run",
-    "Maven.store-front-carousel [clean].executor": "Run",
-    "Maven.store-front-carousel [compile].executor": "Run",
-    "Maven.store-front-carousel [install].executor": "Run",
-    "Maven.store-front-carousel [validate].executor": "Run",
-    "Maven.store-front-category [clean].executor": "Run",
-    "Maven.store-front-category [compile].executor": "Run",
-    "Maven.store-front-product [compile].executor": "Run",
-    "Maven.store-front-user [clean].executor": "Run",
-    "Maven.store-front-user [compile].executor": "Run",
-    "Maven.store-gateway [clean].executor": "Run",
-    "Maven.store-gateway [compile].executor": "Run",
-    "Maven.store-static [compile].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.CarouselApplication.executor": "Run",
-    "Spring Boot.CategoryApplication.executor": "Run",
-    "Spring Boot.GatewayApplication.executor": "Run",
-    "Spring Boot.ProductApplication.executor": "Run",
-    "Spring Boot.SearchApplication.executor": "Run",
-    "Spring Boot.StaticsApplication.executor": "Run",
-    "Spring Boot.UserApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.3275862",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.b2c-store [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.b2c-store [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.b2c-store [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.store-commons [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.store-commons [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.store-commons [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.store-front-carousel [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.store-front-carousel [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.store-front-carousel [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.store-front-carousel [validate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.store-front-category [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.store-front-category [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.store-front-product [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.store-front-user [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.store-front-user [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.store-gateway [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.store-gateway [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.store-static [compile].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.CarouselApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.CategoryApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.GatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ProductApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SearchApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.StaticsApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.UserApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3275862&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -120,26 +127,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProductApplication">
+  <component name="RunManager" selected="Spring Boot.UserApplication">
     <configuration name="CarouselApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="store-front-carousel" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.carousel.CarouselApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.atguigu.carousel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CategoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="store-front-category" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.category.CategoryApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.category.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,19 +180,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="store-front-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.user.UserApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Spring Boot.UserApplication" />
       <item itemvalue="Spring Boot.SearchApplication" />
-      <item itemvalue="Spring Boot.CategoryApplication" />
       <item itemvalue="Spring Boot.ProductApplication" />
       <item itemvalue="Spring Boot.CarouselApplication" />
       <item itemvalue="Spring Boot.StaticsApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.SearchApplication" />
-        <item itemvalue="Spring Boot.CategoryApplication" />
-        <item itemvalue="Spring Boot.ProductApplication" />
         <item itemvalue="Spring Boot.CarouselApplication" />
+        <item itemvalue="Spring Boot.ProductApplication" />
+        <item itemvalue="Spring Boot.UserApplication" />
+        <item itemvalue="Spring Boot.SearchApplication" />
         <item itemvalue="Spring Boot.StaticsApplication" />
       </list>
     </recent_temporary>
@@ -223,7 +230,8 @@
       <workItem from="1719115332875" duration="15652000" />
       <workItem from="1719149013320" duration="665000" />
       <workItem from="1719149685039" duration="6671000" />
-      <workItem from="1719199565653" duration="23283000" />
+      <workItem from="1719199565653" duration="23705000" />
+      <workItem from="1719288576391" duration="14021000" />
     </task>
     <servers />
   </component>

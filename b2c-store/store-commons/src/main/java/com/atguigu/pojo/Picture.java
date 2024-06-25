@@ -7,9 +7,12 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
+import java.io.Serializable;
+
 @Data
 @TableName("product_picture")
-public class Picture {
+public class Picture implements Serializable {
+    public static final long serialVersionUID = 1L;
 
     @TableId(type = IdType.AUTO)
     private Integer id;

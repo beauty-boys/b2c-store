@@ -7,6 +7,7 @@ import com.atguigu.utils.R;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -19,6 +20,7 @@ public class CarouselServiceimpl implements CarouselServive {
     @Autowired
     private CarouselMapper carouselMapper;
 
+    @Cacheable(value="list.carpusel",key="@root.methodName",cacheManager = "cacheManagerDay")
     @Override
     public R list() {
         QueryWrapper<Carousel> queryWrapper = new QueryWrapper<>();
